@@ -1,23 +1,6 @@
-~Comment~
-~Basic read the file....~
-~The language name is "Very much Inteligent Scrip" <-- You see what i did there...~
-~YEL == Print~
-~FCN == Frame Create New~
+~This programming language is called "Very Mush Inteligent System" or "vmis"~
 
-var1{{runtime.print(a)}}~Creates a method~
-HELLO2{HELLO}~Set 'HELLO2' to equal 'HELLO'~
-var3{[HELLO2]}~If 'var3' is a variable then set 'var3' to what 'HELLO2' gives.~
-var1{[HELLO]}~'var1' is defined as a function and now you call 'var1'~
-
-prn{{runtime.print()}} ~That is creating a script
-prn{runtime.print()} ~That is to create a variable (if its not already defined as a a script)
-
-pr2{hello} ~Set var 'pr2' to 'hello'
-prn{[pr2]} ~Set var 'prn' to 'pr2'
-
-
-
-v1{{ret:fe}}~Make 'v1' to a fuction~
+v1{{ret:fe}}  ~Make 'v1' to a fuction~
 v2{HELLO}     ~Set  'v2' to 'HELLO'~
 v3{[v2]}      ~Set  'v3' to ('v2' that gives 'HELLO')~
 v4{[v1]}      ~Set  'v4' to what 'v1' returns~
@@ -36,3 +19,5 @@ v6{*[v7]}     ~If ('v6' and 'v7') is a number... multiply by 'v7'~
 v6{/[v7]}     ~If ('v6' and 'v7') is a number... devide   by 'v7'~
 v6{+[v7]}     ~If ('v6' and 'v7') is a number... add         'v7'~
 v6{-[v7]}     ~If ('v6' and 'v7') is a number... subtract by 'v7'~
+
+~This is a stock holder for ideas i have and are close to implement in my program~
