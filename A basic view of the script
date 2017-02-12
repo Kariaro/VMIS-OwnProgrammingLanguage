@@ -1,23 +1,26 @@
-~This programming language is called "Very Mush Inteligent System" or "vmis"~
+0:class{
+	1:(a){ret:[a];};
+	2:(a){ret:[a];};
+	3:(a){ret:[a];};
+	4:class{
+		5:(a){ret:[a];};
+		6:(a){ret:[a];};
+		7:(a){ret:[a];};
+	};~Create a class~
+};~Create a class~
 
-v1{{ret:fe}}  ~Make 'v1' to a fuction~
-v2{HELLO}     ~Set  'v2' to 'HELLO'~
-v3{[v2]}      ~Set  'v3' to ('v2' that gives 'HELLO')~
-v4{[v1]}      ~Set  'v4' to what 'v1' returns~
-v5{6}         ~Set  'v5' to both string and number.~
+tz:{58};
 
-v6{++}        ~If 'v6' is a number... add one to it.~
-v6{--}        ~If 'v6' is a number... sub one to it.~
-v6{*[v5]}     ~If ('v6' and 'v5') is a number... multiply by 'v5'~
-v6{/[v5]}     ~If ('v6' and 'v5') is a number... devide   by 'v5'~
-v6{+[v5]}     ~If ('v6' and 'v5') is a number... add         'v5'~
-v6{-[v5]}     ~If ('v6' and 'v5') is a number... subtract by 'v5'~
+0:(a){
+	az:{[tz]};
+	az:+={[a]};
+	ret:[az];
+};~Create a function~
 
-v7{{ret:64}}  ~Set 'v7' to a function wich returns '64'~
+0:(){"hello"};
 
-v6{*[v7]}     ~If ('v6' and 'v7') is a number... multiply by 'v7'~
-v6{/[v7]}     ~If ('v6' and 'v7') is a number... devide   by 'v7'~
-v6{+[v7]}     ~If ('v6' and 'v7') is a number... add         'v7'~
-v6{-[v7]}     ~If ('v6' and 'v7') is a number... subtract by 'v7'~
-
-~This is a stock holder for ideas i have and are close to implement in my program~
+~
+Type '0' Create a variable
+Type '1' Create a class
+Type '2' Create a function
+Type '3' Calculate Arithmetic~
